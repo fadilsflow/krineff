@@ -1,6 +1,5 @@
 import type { Config } from "tailwindcss";
 import typography from "@tailwindcss/typography";
-import debugScreens from "tailwindcss-debug-screens";
 import defaultTheme from "tailwindcss/defaultTheme";
 
 export default {
@@ -114,5 +113,5 @@ export default {
       },
     },
   },
-  plugins: [typography, debugScreens],
+  plugins: [typography],
 } satisfies Config;
